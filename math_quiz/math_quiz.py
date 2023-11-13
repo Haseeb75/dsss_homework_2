@@ -9,14 +9,11 @@ def integer(min_value, max_value):
     Parameters:
     - min_value (int): The minimum value for the random integer.
     - max_value (int): The maximum value for the random integer.
-
     Returns:
     int: A random integer within the specified range.
     """
     # Use the random.randint to generate a random integer from the specified range
     return random.randint(min_value, max_value)
-
-
 def operator():
     """
     Generate a random arithmatic operator: '+' , '-' , '*'
