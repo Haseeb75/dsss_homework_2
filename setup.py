@@ -1,7 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='your_package_name',  # This is the package name
+    name='math_quiz',
     version='0.1.0',
-    # Other setup information...
+    packages=find_packages(),
+    install_requires=[
+        # List your dependencies here
+    ],
 )
